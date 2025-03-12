@@ -1,7 +1,3 @@
-Here’s a concise summary for your **README.md** file:
-
----
-
 ## Summary
 
 This project simulates a **file system** using a **tree structure** in Python. It provides functionalities to:
