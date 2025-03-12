@@ -16,7 +16,7 @@ The file system is represented using nested dictionaries, where each key is a di
 
 ## Breakout room 9:
 
--**Cedrick Bienvenue**
--**Kamanzi Golbert**
--**Rugero Francoise**
--**Neville Iregi**
+-**Cedrick Bienvenue**\n
+-**Kamanzi Golbert**\n
+-**Rugero Francoise**\n
+-**Neville Iregi**\n
