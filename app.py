@@ -51,3 +51,21 @@ def display_structure(file_system, level=0):
     for folder, subfolders in file_system.items():
         print(" " * level + f" {folder}")
         display_structure(subfolders, level + 1)
+
+
+# Example Usage
+
+# Display the initial structure
+print(" Initial Directory Structure:")
+display_structure(file_system)
+
+# Add a directory
+add_directory(file_system, ["Pictures",
+              "Saved Pictures", "Web Images"], "Safari")
+
+# Delete a directory
+delete_directory(file_system, ["Pictures", "Saved Pictures"], "Web Images")
+
+# Display the updated structure
+print("\n Updated Directory Structure:")
+display_structure(file_system)
